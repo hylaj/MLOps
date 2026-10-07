@@ -1,1 +1,1 @@
-# MLOps
+# Techniki wdrażania metod uczenia maszynowego
