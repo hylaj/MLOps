@@ -25,7 +25,7 @@ def _load_sentence_transformer_model(path: str):
 
 class Inference:
     def __init__(self, sklearn_model_path: str, sentence_transformer_model_path: str):
-        self.sklearn_model = joblib.load(sklearn_model_path)
+        self.sklearn_model = _load_scikitlearn_model(sklearn_model_path)
         self.sentence_transformer_model = _load_sentence_transformer_model(
             sentence_transformer_model_path
         )
