@@ -1,0 +1,26 @@
+[project]
+name = "lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jolanta Hyla", email = "jhyla@student.agh.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.6",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "postgres>=4.0",
+    "pre-commit>=4.7.0",
+    "psycopg>=3.3.6",
+    "pyarrow>=13.0.0",
+]
+
+[project.scripts]
+lab = "lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
