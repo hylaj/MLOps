@@ -1,0 +1,27 @@
+[project]
+name = "homework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jolanta Hyla", email = "jhyla@student.agh.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb",
+    "jupyter",
+    "matplotlib",
+    "pandas",
+    "pre-commit>=4.7.0",
+    "psycopg[binary]",
+    "pyarrow",
+    "ruff",
+    "scipy",
+]
+
+[project.scripts]
+homework = "homework:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
