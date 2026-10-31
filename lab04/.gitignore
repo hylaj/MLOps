@@ -1,0 +1,4 @@
+milvus_db/data/
+milvus_db/volumes/
+.ipynb_checkpoints/
+.env

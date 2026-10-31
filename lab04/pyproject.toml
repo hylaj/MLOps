@@ -1,0 +1,31 @@
+[project]
+name = "lab04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jolanta Hyla", email = "jhyla@student.agh.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.1.0",
+    "google-genai>=2.34.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.6.4",
+    "numpy>=2.5.4",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.6",
+    "pymilvus>=3.0.2",
+    "pymupdf>=2.0",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.2.0",
+    "sqlalchemy>=2.1.6",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+lab04 = "lab04:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
