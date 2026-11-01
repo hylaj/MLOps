@@ -1,0 +1,35 @@
+[project]
+name = "homework04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jolanta Hyla", email = "jhyla@student.agh.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.5.0",
+    "google-genai>=1.8.0",
+    "joblib>=1.4.2",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pgvector>=0.4.0",
+    "pillow>=11.1.0",
+    "polars>=2.1.0",
+    "psycopg>=3.3.6",
+    "pymilvus>=2.5.6",
+    "pymupdf>=1.16.14",
+    "requests>=2.32.3",
+    "sentence-transformers>=4.0.1",
+    "sqlalchemy>=2.0.40",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+]
+[project.scripts]
+homework04 = "homework04:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
