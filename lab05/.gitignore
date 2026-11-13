@@ -1,3 +1,9 @@
 .idea/
 .venv/
 /remote_data
+
+# MLflow
+mlflow.db
+mlflow-artifacts/
+mlflow-data/
+mlruns/
