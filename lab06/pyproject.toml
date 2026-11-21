@@ -1,0 +1,23 @@
+[project]
+name = "MLOps_course_AGH_lab_06"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+
+requires-python = "==3.12.*"
+
+dependencies = [
+    "captum>=0.9",
+    "cleanlab>=2.9",
+    "datasets>=5",
+    "jupyter",
+    # openai extra: langtest 2.8 imports openai unconditionally, also for HuggingFace models
+    "langtest[openai,transformers]>=2.8",
+    "matplotlib",
+    "pandas<3",
+    "pandera[pandas]>=0.35",
+    "ruff",
+    "scikit-learn",
+    "sentence-transformers>=6",
+    "transformers[torch]>=5.5",
+]
