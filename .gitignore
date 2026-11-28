@@ -221,9 +221,6 @@ __marimo__/
 
 
 model*
-<<<<<<< HEAD
 onnx_export*
-=======
-onnx_export*
+
 trace.json
->>>>>>> afaf59f (lab07 ready)
