@@ -1,0 +1,19 @@
+[project]
+name = "MLOps_course_AGH_lab_07"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+
+requires-python = "==3.12.*"
+
+dependencies = [
+    "jupyter",
+    "numpy",
+    "onnx>=1.23",
+    "onnxruntime>=1.32",
+    # the ONNX exporter in PyTorch builds the graph with onnxscript
+    "onnxscript>=0.7",
+    "ruff",
+    "torch>=2.15",
+    "transformers>=5.5",
+]
